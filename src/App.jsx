@@ -17,7 +17,7 @@ const App = () => {
     }
     getData();
   }, [next])
-console.log(user)
+// console.log(user)
   return (
     <div className='tex'>
       <h1 className='h1'>User Profile</h1>
