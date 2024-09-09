@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+*{
+  font-family: sans-serif;
+  text-wrap: wrap;
+}
+
+.h1 {
+  font-size: 200%;
+  text-align: center;
+  /* font-weight: bold; */
+  text-decoration:underline;
+  margin-top: 0px !important;
+  color: rgb(33, 71, 168);
+  text-decoration-color:rgb(128, 120, 135);
+  text-transform: uppercase;
+  
+}
+
+p {
+  margin-top: 1.3rem !important;
+}
+
+img {
+  border-radius: 100px;
+  width: 10rem;
+  margin-top: 1rem;
+}
+.card {
+  /* width: 100%; */
+  border-radius: 20px;
+  box-shadow: 0 8px 15px 0 rgb(151, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn{
+  padding: 8px 20px;
+  font-size: 17px;
+  margin-top: 4px;
+  background-color: rgb(43, 43, 255);
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border-style: none;
+  margin-bottom: 12px;
+}
